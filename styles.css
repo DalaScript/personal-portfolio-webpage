@@ -127,7 +127,8 @@ header {
 
 #welcome-section {
   height: 680px;
-  background: linear-gradient(315deg, var(--primary__li), rgba(136, 136, 206, 0.7));
+  /* background: linear-gradient(315deg, var(--primary__li), rgba(136, 136, 206, 0.7)); */
+  background: linear-gradient(315deg, rgba(33, 33, 65, 0.7), var(--primary__li));
 
   display: flex;
   justify-content: center;
@@ -234,7 +235,7 @@ header {
   line-height: 54px;
   text-align: center;
   color: var(--primary__white);
-  text-shadow: 5px -5px 15px var(--primary__li);
+  /* text-shadow: 5px -5px 15px var(--primary__li); */
 }
 
 .projects-title span {
@@ -253,6 +254,10 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   gap: 35px;
+}
+
+.regular-projects:first-of-type {
+  margin-bottom: 30px;
 }
 
 .project-card {

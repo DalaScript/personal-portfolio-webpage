@@ -376,7 +376,7 @@ footer {
 .footer-title {
   margin-bottom: 10px;
   color: var(--primary__white);
-  text-shadow: 5px -5px 15px var(--primary__li);
+  /* text-shadow: 5px -5px 15px var(--primary__li); */
 }
 
 .footer-caption {
